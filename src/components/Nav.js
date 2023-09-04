@@ -30,7 +30,7 @@ const Nav = () => {
         <div className="p-4">
           <button
             type="button"
-            className="bg-white px-6 rounded-full py-2 hover:bg-black hover:text-white text-sm"
+            className="bg-white px-6 rounded-full py-2 hover:bg-black hover:text-white text-sm font-semibold"
           >
             Open Discord
           </button>

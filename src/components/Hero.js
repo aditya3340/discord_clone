@@ -23,8 +23,8 @@ const Hero = () => {
           </p>
         </section>
         <section className="flex flex-col items-start px-5 mt-5 md:flex-row md:justify-center md:mt-10">
-            <button type="button" className="bg-white px-8 py-3 rounded-full text-md font-semibold my-2 hover:text-sky-600 hover:shadow-lg hover:shadow-white/20">Download for Windows</button>
-            <button type="button" className="text-white px-8 py-3 rounded-full text-md font-semibold my-2 bg-zinc-800 hover:bg-zinc-700 hover:shadow-lg hover:shadow-zinc-700/40">Open Discord in your browser</button>
+            <button type="button" className="bg-white px-8 py-3 rounded-full text-md font-semibold my-2 hover:text-sky-600 hover:shadow-lg hover:shadow-white/20 md:mx-5">Download for Windows</button>
+            <button type="button" className="text-white px-8 py-3 rounded-full text-md font-semibold my-2 bg-zinc-800 hover:bg-zinc-700 hover:shadow-lg hover:shadow-zinc-700/40 md:mx-5">Open Discord in your browser</button>
         </section>
       </div>
     </div>
