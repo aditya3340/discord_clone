@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { BsDiscord } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
@@ -28,12 +29,14 @@ const Nav = () => {
         </div>
 
         <div className="p-4">
-          <button
-            type="button"
-            className="bg-white px-6 rounded-full py-2 hover:bg-black hover:text-white text-sm font-semibold"
-          >
-            Open Discord
-          </button>
+          <Link to="/login">
+            <button
+              type="button"
+              className="bg-white px-6 rounded-full py-2 hover:bg-black hover:text-white text-sm font-semibold"
+            >
+              Login
+            </button>
+          </Link>
         </div>
         {/* Mobile Nav*/}
         <div className="lg:hidden flex relative">
